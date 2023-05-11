@@ -1,0 +1,70 @@
+body{
+    position: relative;
+    padding: 85px 0px 0px 0px;
+}
+.navbar{box-shadow: 0px 0px 15px 0px #bebebe}
+
+a{padding: 40px;margin-left: 130px;display: inline-block;line-height: 60px;}
+.ScrllTop{width: 34px;height: 34px;position: fixed;bottom: 10px;right: 10px; z-index: 2;background-color: #7989ff;text-align: center;border-radius: 3px;cursor: pointer;}
+.ScrllTop > i{color: #ffffff;position: fixed;bottom: 19px;right: 22px}
+.wrap-3{margin-top: 80px;justify-content: }
+.wrap-3 > .container > h2{text-align: center;font-family: cursive}
+.wrap-3 > .container > p{text-align: center;font-family: monospace;font-size: 15px;margin: 10px}
+.para1{text-align: left !important;font-family: sans-serif !important;color: #646464;font-size: 20px !important}
+.img{margin-top: 30px;transition: all 0.3s linear;cursor: pointer;overflow: hidden}
+.img:hover{transform: scale(1.04)}
+.BookNow{text-align: center;margin-top: 100px;}
+
+/*.wrap-5{margin-bottom: 200px}*/
+.wrap-5  h1{text-align: center;font-family:cursive;margin-top: 200px}
+.wrap-5  p{text-align: center;}
+.wrap-5 h3{text-align: left}
+.wrap-5 > .container > .row > .col-12 > .row {margin-top: 70px}
+.wrap-5 > .container > .row > .col-12 > .row > .col-9 h3{text-align: left;display: block;font-family: monospace}
+.wrap-5 > .container > .row > .col-12 > .row > .col-9 p{text-align: left;display: block}
+.Iconpara{color: #919191;font-size: 14px;text-align: center;display: block}
+i{margin-top: 20px;display: block}
+
+.wrap-6{margin-top: 100px}
+.wrap-6 > .container >.row{margin-top: 100px}
+.wrap-6 > .container > .row > .col-12 > h5{margin-top: 20px;color: #2d96d8;margin-bottom: 10px}
+.wrap-6 > .container > .row > .col-12 > h1{margin-bottom: 70px}
+.wrap-6 > .container > .row > .col-12 > p{font-size: 20px;color: #797979}
+.wrap-6 > .container > .row > .col-12 > p > small{font-size: 18px;color: #2d96d8}
+.wrap-6 > .container > .row > .col-12 > img{border-radius: 15px;margin-top: 50px}
+
+.wrap-7{margin-bottom: 100px}
+.wrap-7 > .container > .row {margin-top: 150px;}
+
+.wrap-7 > .container > .row > .col-6 > .box{padding: 13px;text-align: center;box-shadow: 0px 0px 5px 5px #f7f7f7;transition: all 0.5s}
+.wrap-7 > .container > .row > .col-6 > .box:hover{color:#32a3a7;transform: rotateY(300deg)}
+.wrap-7 > .container > .row > .col-6 {}
+.wrap-7 > .container > .row > .col-6 > .box > img{max-height: 40px;;margin-top: 10px}
+.wrap-7 > .container > .row > .col-6 > .box > p{margin-top: 30px;}
+/*.wrap-7 .box:hover{}*/
+
+.wrap-8{background-color:rgb(112 149 178 / 90%);color: white;text-align: left;}
+.wrap-8 > .container > .row > .col-12 > h4{margin-bottom: 20px;margin-top: 100px}
+.wrap-8 > .container > .row > .col-12 > p > i{margin-left: 15px;cursor: pointer;transition: all 0.2s;margin-bottom: 50px}
+.wrap-8 > .container > .row > .col-12 > p > i:hover{color: #d6d6d6}
+
+
+.wrap-9{ color: white;background-color: #486487}
+.wrap-9 > .container > .row > p{margin-bottom: 30px;margin-top: 30px;text-align: center}
+
+ @media screen and (max-width:460px){
+     .wrap-2 h1{font-size: 20px;}     
+     .wrap-2 h5{font-size: 10px;color: #ebeba0}     
+     .wrap-2 button{width: 40%;height: 30px;font-size: 12px;background: #acacac;color: black;border: white;opacity: 0.8;color: #126164}     
+
+}
+
+@media screen and (max-width:320px){
+     .wrap-2 h1{font-size: 15px;}     
+     .wrap-2 h5{font-size: 10px;color: #ebeba0}     
+     .wrap-2 button{width: 40%;height: 30px;font-size: 8px;background: #acacac;color: black;border: white;opacity: 0.8;color: #126164}     
+
+}
+
+
+/*https://www.website.com/templates/parallelrealestate*/

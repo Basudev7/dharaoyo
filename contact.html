@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="icon" href="Img/icon.png">
+      <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: url(Img/Map.jpg) no-repeat;
+            padding: 95px 0px 0px 0px;
+            
+        }
+        
+        .wrap-1 a{;margin: 20px; margin-left: 150px}
+          
+          
+        .container{margin-top: 8%;width: 300px;height: 400px;background: #d18e63;opacity: 0.9;box-shadow: 0px 0px 5px 7px #d19f7e}
+          .wrap-2 h2{color: wheat;text-align: center;font-style: italic}
+          
+          .wrap-2 input,button{margin: 10px;margin-top: 20px;font-style:oblique}
+          .wrap-2 input{width: 90%}
+          .wrap-2 button{color: wheat;background: #0f0f0f;float: right;border: none;width: 100px;height: 40px}
+          .wrap-2 button:active{margin-top: 17px}
+          .wrap-2::after{clear: both}
+          
+          @media screen and (max-width:320px){
+              .container{width: 250px}
+              .wrap-2 input{width: 90%}
+          } 
+    
+    </style>
+
+    <title>Contact Us</title>
+  </head>
+  <body>
+    
+            <div class="wrap-1" id="index">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <h2 class="navbar-brand">Dhara
+           <br>
+           <small> ::.  Family Vacation</small>
+           </h2>
+            
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link active" href="contact.html">Contact</a>
+     
+    </div>
+  </div>
+              
+
+</nav>
+         </div>
+    
+    
+   <div class="container">
+    <div class="wrap-2">
+         
+        <form name="Contact" >
+            
+                
+                    <h2>Contact Us</h2>
+                
+                <input type="text" placeholder="Enter Name" name="Uname">
+                <input type="email" placeholder="Enter Email" name="Uemail">  
+                <input type="datetime-local"  name="date"> 
+                <input type="number" placeholder="Phone Number" name="Uphone" >
+                <button type="submit">Submit</button>
+              
+                   
+        </form>
+        
+    </div>
+        
+        </div>
+      
+      <script>
+      
+          document.Contact.onsubmit=function(){
+              if(this.Uname.value==""){
+                  alert("Enter Name");
+                  this.Uname.focus();
+                  return false;
+              }
+              
+             else if(this.Uemail.value==""){
+                  alert("Enter Email");
+                  this.Uname.focus();
+                  return false;
+              }
+              
+              else if(this.date.value==""){
+                  alert("Enter date");
+                  this.Uname.focus();
+                  return false;
+              }
+              
+               else if(this.Uphone.value==""){
+                  alert("Enter Phone Number");
+                  this.Uname.focus();
+                  return false;
+              }
+              
+              else{
+                  alert("Thanks "+this.Uname.value);
+                  alert("We will contact you soon");
+              }
+          }
+      
+      </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
